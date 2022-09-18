@@ -229,6 +229,5 @@ echo '
 ' > $maindir_web/new.html
 mv $maindir_web/new.html $maindir_web/index.html
 
-rm -r /home/pi/Wetter/new.html
 rm -r $maindir_web/*.json
 
