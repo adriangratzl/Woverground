@@ -23,6 +23,10 @@ ln -s /usr/share/woverground/collector/data/export/ /usr/share/woverground/web/w
 
 #Configure Variables and run first time genweb.sh
 nano /usr/share/woverground/woverground.conf
+mkdir -p /usr/share/woverground/collector/data/export
+mkdir -p /usr/share/woverground/collector/data/logs
+mkdir -p /usr/share/woverground/collector/data/gnuplot
+
 
 #Configure Crontab for automatic execution
 crontab -l > mycron
