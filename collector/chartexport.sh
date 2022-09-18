@@ -1,5 +1,5 @@
 #!/bin/bash
-#Woverground -v0.6
+#Woverground -v0.6.1
 #chartexport.sh
 #Adrian Gratzl - 2022
 
