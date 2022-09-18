@@ -13,8 +13,8 @@ After that, you will have your weather, historical weather inclusive diagrams an
 ## Features:
 - Lightweight
 - Webinterface for desktop and mobile
-- easy (will get much easier) install
-- updates website evey 5mins automatically
+- Easy (will get much easier) install
+- Updates website evey 5mins automatically
 
 ![grafik](https://user-images.githubusercontent.com/30727977/190912276-0d3350f0-3beb-4ced-8f5c-7cdb900f0499.png)
 
@@ -24,5 +24,7 @@ After that, you will have your weather, historical weather inclusive diagrams an
 - New and improved webinterface
 - Better and more diagrams
 - Easyier installer
+- Auto updater for this software
+- Backup for the collected data
 - Much more features
 
