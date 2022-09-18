@@ -183,42 +183,42 @@ echo '
 <br>
 <h2>Diagramme vom '$(date --date=yesterday +"%d.%m.%Y")'</h2>
 <div class="row">
-<img src="export/'$(date --date=yesterday +"%d.%m.%Y")'-Temperatur.png" alt="Temperatur" title="Temperatur">
-<img src="export/'$(date --date=yesterday +"%d.%m.%Y")'-Luftdruck.png" alt="Luftdruck" title="Luftdruck">
-<img src="export/'$(date --date=yesterday +"%d.%m.%Y")'-Niederschlag.png" alt="Niederschlag" title="Niederschlag">
-<img src="export/'$(date --date=yesterday +"%d.%m.%Y")'-Windrichtung.png" alt="Windrichtung" title="Windrichtung">
+<img src="/export/'$(date --date=yesterday +"%d.%m.%Y")'-Temperatur.png" alt="Temperatur" title="Temperatur">
+<img src="/export/'$(date --date=yesterday +"%d.%m.%Y")'-Luftdruck.png" alt="Luftdruck" title="Luftdruck">
+<img src="/export/'$(date --date=yesterday +"%d.%m.%Y")'-Niederschlag.png" alt="Niederschlag" title="Niederschlag">
+<img src="/export/'$(date --date=yesterday +"%d.%m.%Y")'-Windrichtung.png" alt="Windrichtung" title="Windrichtung">
 </div>
 <br>
 <h2>Diagramme vom '$(date --date="2 day ago" +"%d.%m.%Y")'</h2>
 <div class="row">
-<img src="export/'$(date --date="2 day ago" +"%d.%m.%Y")'-Temperatur.png" alt="Temperatur" title="Temperatur">
-<img src="export/'$(date --date="2 day ago" +"%d.%m.%Y")'-Luftdruck.png" alt="Luftdruck" title="Luftdruck">
-<img src="export/'$(date --date="2 day ago" +"%d.%m.%Y")'-Niederschlag.png" alt="Niederschlag" title="Niederschlag">
-<img src="export/'$(date --date="2 day ago" +"%d.%m.%Y")'-Windrichtung.png" alt="Windrichtung" title="Windrichtung">
+<img src="/export/'$(date --date="2 day ago" +"%d.%m.%Y")'-Temperatur.png" alt="Temperatur" title="Temperatur">
+<img src="/export/'$(date --date="2 day ago" +"%d.%m.%Y")'-Luftdruck.png" alt="Luftdruck" title="Luftdruck">
+<img src="/export/'$(date --date="2 day ago" +"%d.%m.%Y")'-Niederschlag.png" alt="Niederschlag" title="Niederschlag">
+<img src="/export/'$(date --date="2 day ago" +"%d.%m.%Y")'-Windrichtung.png" alt="Windrichtung" title="Windrichtung">
 </div>
 <br>
 <h2>Diagramme vom '$(date --date="3 day ago" +"%d.%m.%Y")'</h2>
 <div class="row">
-<img src="export/'$(date --date="3 day ago" +"%d.%m.%Y")'-Temperatur.png" alt="Temperatur" title="Temperatur">
-<img src="export/'$(date --date="3 day ago" +"%d.%m.%Y")'-Luftdruck.png" alt="Luftdruck" title="Luftdruck">
-<img src="export/'$(date --date="3 day ago" +"%d.%m.%Y")'-Niederschlag.png" alt="Niederschlag" title="Niederschlag">
-<img src="export/'$(date --date="3 day ago" +"%d.%m.%Y")'-Windrichtung.png" alt="Windrichtung" title="Windrichtung">
+<img src="/export/'$(date --date="3 day ago" +"%d.%m.%Y")'-Temperatur.png" alt="Temperatur" title="Temperatur">
+<img src="/export/'$(date --date="3 day ago" +"%d.%m.%Y")'-Luftdruck.png" alt="Luftdruck" title="Luftdruck">
+<img src="/export/'$(date --date="3 day ago" +"%d.%m.%Y")'-Niederschlag.png" alt="Niederschlag" title="Niederschlag">
+<img src="/export/'$(date --date="3 day ago" +"%d.%m.%Y")'-Windrichtung.png" alt="Windrichtung" title="Windrichtung">
 </div>
 <br>
 <h2>Diagramme vom '$(date --date="4 day ago" +"%d.%m.%Y")'</h2>
 <div class="row">
-<img src="export/'$(date --date="4 day ago" +"%d.%m.%Y")'-Temperatur.png" alt="Temperatur" title="Temperatur">
-<img src="export/'$(date --date="4 day ago" +"%d.%m.%Y")'-Luftdruck.png" alt="Luftdruck" title="Luftdruck">
-<img src="export/'$(date --date="4 day ago" +"%d.%m.%Y")'-Niederschlag.png" alt="Niederschlag" title="Niederschlag">
-<img src="export/'$(date --date="4 day ago" +"%d.%m.%Y")'-Windrichtung.png" alt="Windrichtung" title="Windrichtung">
+<img src="/export/'$(date --date="4 day ago" +"%d.%m.%Y")'-Temperatur.png" alt="Temperatur" title="Temperatur">
+<img src="/export/'$(date --date="4 day ago" +"%d.%m.%Y")'-Luftdruck.png" alt="Luftdruck" title="Luftdruck">
+<img src="/export/'$(date --date="4 day ago" +"%d.%m.%Y")'-Niederschlag.png" alt="Niederschlag" title="Niederschlag">
+<img src="/export/'$(date --date="4 day ago" +"%d.%m.%Y")'-Windrichtung.png" alt="Windrichtung" title="Windrichtung">
 
 <br>
 <h2>Diagramme vom '$(date --date="5 day ago" +"%d.%m.%Y")'</h2>
 <div class="row">
-<img src="export/'$(date --date="5 day ago" +"%d.%m.%Y")'-Temperatur.png" alt="Temperatur" title="Temperatur">
-<img src="export/'$(date --date="5 day ago" +"%d.%m.%Y")'-Luftdruck.png" alt="Luftdruck" title="Luftdruck">
-<img src="export/'$(date --date="5 day ago" +"%d.%m.%Y")'-Niederschlag.png" alt="Niederschlag" title="Niederschlag">
-<img src="export/'$(date --date="5 day ago" +"%d.%m.%Y")'-Windrichtung.png" alt="Windrichtung" title="Windrichtung">
+<img src="/export/'$(date --date="5 day ago" +"%d.%m.%Y")'-Temperatur.png" alt="Temperatur" title="Temperatur">
+<img src="/export/'$(date --date="5 day ago" +"%d.%m.%Y")'-Luftdruck.png" alt="Luftdruck" title="Luftdruck">
+<img src="/export/'$(date --date="5 day ago" +"%d.%m.%Y")'-Niederschlag.png" alt="Niederschlag" title="Niederschlag">
+<img src="/export/'$(date --date="5 day ago" +"%d.%m.%Y")'-Windrichtung.png" alt="Windrichtung" title="Windrichtung">
 </div>
 
 </div>
