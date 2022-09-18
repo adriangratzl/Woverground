@@ -1,5 +1,5 @@
 #!/bin/bash
-#Woverground - v0.6
+#Woverground - v0.6.1
 #installer.sh
 #Adrian Gratzl - 2022
 
@@ -18,6 +18,8 @@ rm -r woverground.zip
 #Configure Apache2
 rm -r /var/www/html
 ln -s /usr/share/woverground/web/website /var/www/html
+ln -s /usr/share/woverground/collector/data/export/ /usr/share/woverground/web/website/
+
 
 #Configure Variables and run first time genweb.sh
 nano /usr/share/woverground/woverground.conf
