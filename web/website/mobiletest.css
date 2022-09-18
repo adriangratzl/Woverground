@@ -1,0 +1,222 @@
+@media all and (min-width: 1300px) and (orientation:landscape) 
+{
+  body {
+  margin: 0px;
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
+header {
+  color: #fefefe;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+
+th.column1top {
+  border-top: solid 1px;
+  border-left: solid 1px;
+}
+
+td {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.row {
+  padding-right: 0px;
+  width: 100%;
+  margin: 0;
+}
+
+.wetterbox {
+  max-width: 29%;
+  min-width: 220px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  background-color: rgba(16,12,8, 0.3);
+}
+
+.wetterboxcenter {
+  display: flex;
+  justify-content: centre;
+  border: 1px solid;
+  max-width: 20%;
+  text-align: center;
+  display: inline-block;
+  border-radius: 18px;
+}
+
+.wetterbox p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.sidecontainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  min-width: 150px;
+  max-width: 30%;
+  float: right;
+  background-color: rgba(0,0,0, 0.6);
+  padding: 1%;
+  color: #fefefe;
+}
+
+.maincontainer h2 {
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.maininfo {
+  position: fixed;
+  left: 5%;
+  bottom: 10%; 
+  overflow: hidden;
+  display: inline-block;
+  background-color: rgba(0,0,0, 0.6);
+  padding: 1%;
+  color: #fefefe;
+}
+
+.maininfo .maintemp {
+  margin: 0;
+  padding: 0;
+  font-size: 180px;
+  overflow: hidden;
+  float: left;
+  }
+  
+.maininfo .mainlocation {
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+  overflow: hidden;
+  }
+  
+.maininfo .time {
+   margin: 0;
+  padding: 0;
+  font-size: 30px;
+  overflow: hidden;
+  }
+
+}
+
+
+@media all and (min-width: 720px) and (orientation:portrait) 
+{
+
+header {
+  color: #fefefe;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: rgba(255,255,255,.0);
+  width: 100%;
+  font-size: 30px;
+}
+
+header h1 {
+margin: 10px;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.main {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 30%;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  }
+
+.maininfo {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 20%; 
+  overflow: hidden;
+  display: inline-block;
+  background-color: rgba(0,0,0, 0.6);
+  padding: 1%;
+  color: #fefefe;
+  width: auto;
+  max-width: 400px;
+}
+
+.maininfo .maintemp {
+  margin: 0;
+  padding: 0;
+  font-size: 80px;
+  overflow: hidden;
+  float: left;
+  }
+  
+  .maininfo .mainlocation {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  overflow: hidden;
+  }
+  
+  .maininfo .time {
+   margin: 0;
+  padding: 0;
+  font-size: 20px;
+  overflow: hidden;
+  }
+
+.row {
+  padding-right: 0px;
+  width: 100%;
+  margin: 0;
+}
+
+.wetterbox {
+  max-width: 29%;
+  min-width: 220px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  background-color: #4c4b49;
+}
+
+.wetterboxcenter {
+  display: flex;
+  justify-content: centre;
+  border: 1px solid;
+  max-width: 20%;
+  text-align: center;
+  display: inline-block;
+  border-radius: 18px;
+}
+
+.wetterbox p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.sidecontainer {
+  width: 100%;
+  background-color: #666666;
+  padding: 1%;
+  color: #fefefe;
+}
+
+.mainplaceolder .maininfo  {
+  height: 1300px;
+}
+
+}

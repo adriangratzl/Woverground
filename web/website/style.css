@@ -1,0 +1,305 @@
+@media all and (min-width: 720px) and (orientation:landscape)  
+{
+  body {
+  margin: 0px;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+header {
+  color: #fefefe;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+
+.topsection {
+  max-height: 1920px;
+}
+
+.below {
+  margin-top: 1000px;
+  height: 6000px;
+  width: 100%;
+  color: #fefefe;
+  background-color: #2b2b2b;
+  z-index: 3;
+}
+
+.dashboard {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dashboard img{
+  width: 900px;
+  margin: 0;
+}
+
+.dashboard .row p {
+  display: inline-block;
+}
+
+.dashboard .row img{
+  margin: 0;
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dashboard p {
+  margin: 5px;
+}
+
+th.column1top {
+  border-top: solid 1px;
+  border-left: solid 1px;
+}
+
+td {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.row {
+  padding-right: 0px;
+  width: 100%;
+  margin: 0;
+}
+
+.wetterbox {
+  max-width: 29%;
+  min-width: 220px;
+  min-height: 173;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  background-color: rgba(16,12,8, 0.3);
+  vertical-align: top;
+}
+
+.below .wetterbox p,h2{
+  display: block;
+}
+
+.below .wetterbox {
+  background-color: rgba(255,255,255,0.3);
+  padding: 5px;
+  height: 320px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+.wetterboxcenter {
+  display: flex;
+  justify-content: centre;
+  border: 1px solid;
+  max-width: 20%;
+  text-align: center;
+  display: inline-block;
+  border-radius: 18px;
+}
+
+.wetterbox p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.sidecontainer {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  max-width: 30%;
+  float: right;
+  background-color: rgba(0,0,0, 0.6);
+  padding: 1%;
+  color: #fefefe;
+  z-index: -1;
+}
+
+.maincontainer h2 {
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.maininfo {
+  position: fixed;
+  left: 5%;
+  bottom: 10%; 
+  overflow: hidden;
+  display: inline-block;
+  /*background-color: rgba(0,0,0, 0.6);*/
+  padding: 1%;
+  color: #fefefe;
+  z-index: -1;
+}
+
+.maininfo .maintemp {
+  margin: 0;
+  padding: 0;
+  font-size: 180px;
+  overflow: hidden;
+  float: left;
+  }
+  
+.maininfo .mainlocation {
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+  overflow: hidden;
+  }
+  
+.maininfo .time {
+   margin: 0;
+  padding: 0;
+  font-size: 30px;
+  overflow: hidden;
+  }
+
+
+}
+
+@media all and (min-width: 720px) and (orientation:portrait)  
+{
+
+header h1{
+  font-size: 80px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+
+body {
+  margin: 0px;
+  padding: 0;
+  background-image: url("bg.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  z-index: -1;
+  
+}
+
+html h1 {
+  font-size: 65px;
+  color: #fefefe;
+}
+
+html p {
+  font-size: 40px;
+}
+
+html a,p {
+  text-decoration: none;
+}
+
+html h2 {
+  font-size: 60px;
+}
+
+.below {
+  margin-top: 0px;
+  height: 16500px;
+  width: 100%;
+  color: #fefefe;
+  background-color: #2b2b2b;
+  z-index: 3;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.below .wetterbox p,h2{
+  display: block;
+  text-align: center;
+}
+
+.below .wetterbox {
+  background-color: rgba(255,255,255,0.3);
+  padding: 10px;
+  margin: 10px;
+  height: 1000px;
+  display: block;
+}
+
+.dashboard img{
+  width: 720px;
+  margin: 0;
+}
+
+.dashboard .row img{
+  margin: 0;
+  display: block;
+  float: left;
+}
+
+footer {
+  text-align: center;
+}
+
+.maininfo {
+  color: #fefefe;
+  text-decoration: none;
+  text-align: center;
+  z-index: -1;
+}
+
+.maininfo .maintemp {
+  font-size: 220px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: top;
+}
+
+.maininfo .mainlocation {
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: bottom;
+}
+
+.maininfo .time {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sidecontainer {
+  background-color: #2b2b2b;
+  color: #fefefe;
+  padding: 15px;
+}
+
+.maininfo a,p,h1,h2 {
+  text-decoration: none;
+}
+
+.topsection .wetterbox {
+  background-color: rgba(255,255,255,0.3);
+  padding: 10px;
+  margin: 10px;
+  height: 300px;
+  display: block;
+  text-align: center;
+}
+
+.topsection .wetterbox h4 {
+  font-size: 50px;
+}
+
+.below .dashboard h2 {
+  margin-top: 15px;
+}
+
+
+}
